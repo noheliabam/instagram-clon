@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+}
+
+.feed-container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.post{
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.post-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.post img{
+    width: 100%;
+    display: block;
+}
+
+.post-description{
+    padding: 10px;
+    font-size: 14px;
+}
